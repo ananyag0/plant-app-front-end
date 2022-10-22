@@ -40,20 +40,47 @@ h1 {
 }
 
 #left {
-
+    background-color: #E8E8E8; 
+    color: black;
+    font-size: 25px;
+    border: 1px solid #000000;
+    border-radius: 10px;    
+    height: 50px;
+    width: 415px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: -50px;
 }
 
 #right {
+    background-color: #E8E8E8; 
+    color: black;
+    font-size: 25px;
+    border: 1px solid #000000;
+    border-radius: 10px;    
+    height: 50px;
+    width: 415px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: -50px;
+}
+
+#left-box1 {
+   
 
 }
 
-.left-box1 {
+
+#right-box1 {
+    
 
 }
 
-
-.right-box1 {
-
+#end {
+    display: flex;
+    flex-direction: column;
 }
 
 #water-now {
