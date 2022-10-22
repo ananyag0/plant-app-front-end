@@ -1,0 +1,260 @@
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#week {
+    background-color: #E8E8E8; 
+    color: black;
+    font-size: 25px;
+    border: 1px solid #000000;
+    border-radius: 10px;    
+    height: 50px;
+    width: 415px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: -50px;
+
+}
+
+#middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#left {
+
+}
+
+#right {
+
+}
+
+.left-box1 {
+
+}
+
+
+.right-box1 {
+
+}
+
+#water-now {
+
+}
+
+#my-plants {
+
+
+}
+
+#my-friends {
+
+
+}
+
+/* 
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* not working */
+}
+
+#week {
+    background-color: lightgrey;
+    color: black;
+    font-size: 25px;
+    border: 1px solid #000000;
+    border-radius: 10px;    
+    height: 50px;
+    width: 415px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: -50px; /* space between "Types" and name */
+}
+.left-head {
+    background-color: #E8E8E8; 
+    color: black;
+    font-size: 25px;
+    border: 1px solid #000000;
+    border-radius: 10px;    
+    height: 50px;
+    width: 415px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: -50px; /* space between "Types" and name */
+}
+
+.right-head {
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: -10px;
+}
+
+#left1 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-left: 25px; 
+    margin-right: 75px;
+}
+
+
+#left2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    margin-left: 25px; 
+    margin-right: 75px;
+}
+
+#left3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-top: 0px;
+    margin-left: 25px; 
+    margin-right: 75px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px; 
+    margin-left: 75px;
+}
+
+.label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#left-arrow {
+    text-align: left;
+    font-size: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-right: 35px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+#right-arrow {
+    text-align: left;
+    font-size: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+#main-text-box {
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+    background: #E8E8E8;
+    width: 325px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 230px;
+}
+
+.moves {
+    font-size: 25px;
+    margin: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #E8E8E8;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.info {
+    font-size: 25px;
+    margin: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #7CFF79;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+#info-moves-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#type1{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+#type2{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border-color: transparent;
+} */
